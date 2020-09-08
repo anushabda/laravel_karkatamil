@@ -1,0 +1,46 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+.router-link-exact-active{
+    
+    background-color:blanchedalmond !important;
+    color:blueviolet!important;
+  
+  }
+  .textcolorbv{
+    color:blueviolet;
+  }
+  .bgcolorbv{
+      background-color:blueviolet;
+  }
+  .textcolorba{
+      color:blanchedalmond;
+  }
+  .bgcolorba{
+      background-color:blanchedalmond;
+  }
+  .navlinktop{
+    background-color:blueviolet;
+    color:blanchedalmond;
+    font-weight:bold;
+    letter-spacing:2px;
+    
+  }
+  .navlinktop:hover,.navlinktop:focus,.navlinktop:active{
+    color:blanchedalmond!important;
+    font-size: 16px!important;
+  }
+
+  @include media-breakpoint-up(md) {
+    .logo-display {
+      display: none;
+    }
+  }
