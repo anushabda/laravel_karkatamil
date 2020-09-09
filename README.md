@@ -5,7 +5,7 @@
     <li> Create a database </li>
     <li>Give the database credentials in the .env file. and set APP_URL=http://localhost:8000</li>
     <li> Execute <code>php artisan key:generate</code></li>
-    <li>Execute <code>php artisan migrate</code><li>
+    <li>Execute <code>php artisan migrate</code></li>
     <li>Execute <code>php artisan db:seed</code></li>
     <li>Create an admin user using the command <code>php artisan voyager:admin your@email.com --create</code> or convert an existing user into an admin using <code> php artisan voyager:admin your@email.com</code></li>
     <li>Execute <code>php artisan serve</code></li>
